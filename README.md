@@ -13,17 +13,6 @@ Both bots interact with the Roostoo mock exchange APIs, aim to maximize portfoli
 
 ## Bot 1: RoostooMLTradingBot
 
-### Folder Structure
-
-RoostooMLTradingBot/
-├── api_client.py      # API client for Roostoo mock exchange
-├── strategies.py      # ML strategy logic and indicator calculations
-├── trading_bot.py     # Core bot logic with risk management
-├── main.py            # Entry point
-├── requirements.txt   # Dependencies
-└── README.md          # Setup instructions
-
-
 ### Strategies
 
 #### Supported Strategies
@@ -96,17 +85,6 @@ A Random Forest Classifier predicts the optimal strategy per trading pair based 
 ---
 
 ## Bot 2: RoostooTradingBot (Hybrid)
-
-### Folder Structure
-RoostooTradingBot/
-├── api_client.py      # Async API client for Roostoo mock exchange
-├── strategies.py      # LSTM and Moving Average strategies
-├── risk_manager.py    # Risk management and Sharpe Ratio logic
-├── trading_bot.py     # Core bot logic with hybrid strategy
-├── main.py            # Entry point
-├── requirements.txt   # Dependencies
-└── README.md          # Setup instructions
-
 
 ### Strategies
 
